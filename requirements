@@ -1,0 +1,6 @@
+pipenv
+pytest
+pytest-bdd
+selenium
+sttable
+webdriver-manager
