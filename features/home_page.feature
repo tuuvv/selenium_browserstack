@@ -79,12 +79,12 @@ Feature: Home Page
   Scenario Outline: Home page - Arrials - add to basket  -items
     When I click on the '<subpage>' link
     Then the '<subpage>' page opens
-    And I click on the product add btn
-    And the product must added to basket
-    And I click on the item menu
-    And basket page must be open
-    And I click on proceed to checkout btn
-    And checkout page must be open
+#    And I click on the product add btn
+#    And the product must added to basket
+#    And I click on the item menu
+#    And basket page must be open
+#    And I click on proceed to checkout btn
+#    And checkout page must be open
 
     Examples:
       | subpage |
